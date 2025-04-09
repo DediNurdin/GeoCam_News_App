@@ -39,3 +39,34 @@ A mobile application that combines geolocation, camera functionality, and news f
 2. **Clone the repository**:
    ```bash
    git clone https://github.com/DediNurdin/GeoCam_News_App.git
+   cd geo_cam_news
+3. **Install dependencies**:
+   ```bash
+   flutter pub get
+4. **Run the app**:
+   ```bash
+   flutter run
+
+## SDLC Workflow
+Requirement Analysis:
+  - Reviewed the coding challenge requirements
+  - Identified core features and bonus points
+
+Design:
+  - Created architecture diagram
+  - Defined folder structure
+  - Selected state management approach (BLoC)
+
+Implementation:
+  - Set up base project with required dependencies
+  - Implemented GeoCam feature
+  - Implemented News feature
+  - Added bonus features (theme, animations, etc.)
+
+Testing:
+  - Widget tests for UI components
+  - Manual testing on emulator and physical device
+
+Deployment:
+  - Generated APK for testing
+  - Prepared for submission
