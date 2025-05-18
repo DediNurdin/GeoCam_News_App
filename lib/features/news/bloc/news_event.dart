@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:geo_cam_news/features/news/model/news_article.dart';
+import '../model/news_article.dart';
 
 abstract class NewsEvent extends Equatable {
   const NewsEvent();

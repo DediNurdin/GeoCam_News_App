@@ -1,18 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:geo_cam_news/app/app.dart';
-import 'package:geo_cam_news/app/theme/theme_bloc.dart';
-import 'package:geo_cam_news/app/theme/theme_event.dart';
-import 'package:geo_cam_news/features/geocam/bloc/geocam_bloc.dart';
-import 'package:geo_cam_news/features/geocam/bloc/geocam_event.dart';
-import 'package:geo_cam_news/features/news/bloc/news_bloc.dart';
-import 'package:geo_cam_news/features/news/bloc/news_event.dart';
-import 'package:geo_cam_news/features/news/repository/news_repository.dart';
-import 'package:geo_cam_news/services/camera_services.dart';
-import 'package:geo_cam_news/services/location_services.dart';
-import 'package:geo_cam_news/services/storage_services.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import 'app/app.dart';
+import 'app/theme/theme_bloc.dart';
+import 'app/theme/theme_event.dart';
+import 'features/geocam/bloc/geocam_bloc.dart';
+import 'features/geocam/bloc/geocam_event.dart';
+import 'features/news/bloc/news_bloc.dart';
+import 'features/news/bloc/news_event.dart';
+import 'features/news/repository/news_repository.dart';
+import 'services/camera_services.dart';
+import 'services/location_services.dart';
+import 'services/storage_services.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

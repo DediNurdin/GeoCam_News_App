@@ -1,6 +1,6 @@
-import 'package:geo_cam_news/features/news/model/news_article.dart';
-import 'package:geo_cam_news/features/news/model/news_response.dart';
-import 'package:geo_cam_news/services/storage_services.dart';
+import '../model/news_article.dart';
+import '../model/news_response.dart';
+import '../../../services/storage_services.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 

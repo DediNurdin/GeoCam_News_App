@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:geo_cam_news/features/news/model/news_article.dart';
+import '../model/news_article.dart';
 import 'package:intl/intl.dart';
 
 class NewsDetailPage extends StatelessWidget {

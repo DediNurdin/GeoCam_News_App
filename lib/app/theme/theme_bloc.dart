@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:geo_cam_news/services/storage_services.dart';
+import '../../services/storage_services.dart';
 
 import 'theme_event.dart';
 import 'theme_state.dart';

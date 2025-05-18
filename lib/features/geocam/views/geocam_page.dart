@@ -2,9 +2,9 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:geo_cam_news/features/geocam/bloc/geocam_bloc.dart';
-import 'package:geo_cam_news/features/geocam/bloc/geocam_event.dart';
-import 'package:geo_cam_news/features/geocam/bloc/geocam_state.dart';
+import '../bloc/geocam_bloc.dart';
+import '../bloc/geocam_event.dart';
+import '../bloc/geocam_state.dart';
 
 class GeocamPage extends StatelessWidget {
   const GeocamPage({super.key});

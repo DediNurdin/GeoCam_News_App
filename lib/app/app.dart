@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:geo_cam_news/app/theme/app_theme.dart';
-import 'package:geo_cam_news/app/theme/theme_bloc.dart';
-import 'package:geo_cam_news/app/theme/theme_event.dart';
-import 'package:geo_cam_news/app/theme/theme_state.dart';
-import 'package:geo_cam_news/features/geocam/views/geocam_page.dart';
-import 'package:geo_cam_news/features/news/views/news_page.dart';
+import 'theme/app_theme.dart';
+import 'theme/theme_bloc.dart';
+import 'theme/theme_event.dart';
+import 'theme/theme_state.dart';
+import '../features/geocam/views/geocam_page.dart';
+import '../features/news/views/news_page.dart';
 
 class App extends StatelessWidget {
   const App({super.key});

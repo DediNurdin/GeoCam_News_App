@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:geo_cam_news/services/camera_services.dart';
-import 'package:geo_cam_news/services/location_services.dart';
-import 'package:geo_cam_news/services/storage_services.dart';
+import '../../../services/camera_services.dart';
+import '../../../services/location_services.dart';
+import '../../../services/storage_services.dart';
 
 import 'geocam_event.dart';
 import 'geocam_state.dart';

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:geo_cam_news/features/news/bloc/news_bloc.dart';
-import 'package:geo_cam_news/features/news/bloc/news_event.dart';
-import 'package:geo_cam_news/features/news/bloc/news_state.dart';
-import 'package:geo_cam_news/features/news/views/news_list.dart';
+import '../bloc/news_bloc.dart';
+import '../bloc/news_event.dart';
+import '../bloc/news_state.dart';
+import 'news_list.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 
 class NewsPage extends StatefulWidget {

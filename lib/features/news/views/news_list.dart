@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:geo_cam_news/features/news/model/news_article.dart';
-import 'package:geo_cam_news/features/news/views/news_detail.dart';
+import '../model/news_article.dart';
+import 'news_detail.dart';
 
 class NewsList extends StatelessWidget {
   final List<NewsArticle> articles;

@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:geo_cam_news/features/news/repository/news_repository.dart';
+import '../repository/news_repository.dart';
 
 import 'news_event.dart';
 import 'news_state.dart';
